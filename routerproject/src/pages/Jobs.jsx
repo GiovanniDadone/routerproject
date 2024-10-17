@@ -6,7 +6,7 @@ const Jobs = () => {
     <div className="jobs">
       {jobsData.map((jobs) => {
         return (
-          <Link>
+          <Link to={jobs.id.toString()} key={jobs.id}>
             <h4>{jobs.title}</h4>
             <p>{jobs.salary}</p>
             <p>{jobs.location}</p>
@@ -19,6 +19,9 @@ const Jobs = () => {
 export default Jobs;
 
 export const jobsLoader = async () => {
-  const res = await fetch("http://localhost:3000/jobs");
+    const res = await fetch("http://localhost:3000/jobs");
+    if (!res.ok) {
+        throw Error("Could not find jobs list");
+      }
   return res.json();
 };

@@ -84,3 +84,111 @@ a.active {
   background-color: #efefef;
   color: #000;
 }
+
+.jobs a:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.jobs-details {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #efefef;
+  color: #000;
+}
+
+.jobs-details p {
+  padding: 10px 0;
+  max-width: 800px;
+}
+
+.jobs-details button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.jobs-details button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.jobs-return button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.jobs-return button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.error h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+  margin: 10px;
+}
+
+.error h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin: 10px
+}
+
+.error p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.error button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.error button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+  border-width: 1px;
+  border-color: #000;
+}
